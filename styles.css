@@ -1,7 +1,60 @@
-.box {
-    width: 400px;
-    height: 600px;
-    color: gray;
-    border-radius: 5px;
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:  #101820;
+    color: #FFFFF0;
+}
 
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw; /* Width relative to the viewport */
+    height: 80vh; /* Height relative to the viewport */
+    max-width: 500px;
+    max-height: 500px;
+    background-color: #FFFFF0;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); /* Enhanced shadow effect */
+
+
+
+}
+
+
+.small-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw; /* Width relative to the viewport */
+    height: 80vh; /* Height relative to the viewport */
+    max-width: 482px;
+    max-height: 482px;
+    border: 5px solid #101820;
+    border-radius: 25px;
+}
+
+.name {
+    margin: 0 auto; /* Remove default margins of <p> */
+    width: 70%;
+    padding: 0; /* Remove default padding of <p> */
+    color: #101820;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-size: 8vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+    
+
+}
+
+h1 {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9vh;
 }
