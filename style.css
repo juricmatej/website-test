@@ -392,21 +392,7 @@ button:hover {
     }
     
     .scroll-indicator {
-        bottom: 1rem;
-    }
-    
-    .scroll-text {
-        font-size: 0.8rem;
-    }
-    
-    .scroll-icon {
-        width: 25px;
-        height: 40px;
-    }
-    
-    .scroll-icon::before {
-        animation: none;
-        opacity: 0;
+        display: none;
     }
 }
 
@@ -426,6 +412,10 @@ button:hover {
     
     .contact-card {
         padding: 1.5rem;
+    }
+    
+    .scroll-indicator {
+        display: none;
     }
 }
 
@@ -548,6 +538,12 @@ button {
     align-items: center;
     animation: fadeInUp 1s ease-out 0.8s both;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .scroll-indicator {
+        display: none !important;
+    }
 }
 
 .scroll-text {
