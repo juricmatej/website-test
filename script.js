@@ -21,6 +21,9 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe all sections and cards
 document.addEventListener('DOMContentLoaded', () => {
+    // Add loaded class to body to prevent flash of unstyled content
+    document.body.classList.add('loaded');
+    
     const sections = document.querySelectorAll('section');
     const cards = document.querySelectorAll('.card');
     

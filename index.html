@@ -1,21 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesionalne geodetske storitve na Dolenjskem. Katastrske meritve, zakoličitve, izravnave mej in geodetski načrti. Miroslav Jurić - vaš zanesljiv partner za natančne meritve.">
+    <meta name="keywords" content="geodetske storitve, katastrska meritev, zakoličitev objektov, izravnava mej, geodetski načrti, Dolenjska, Slovenija, Miroslav Jurić">
+    <meta name="author" content="Miroslav Jurić">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Geodetske meritve Miroslav Jurić">
+    <meta property="og:description" content="Profesionalne geodetske storitve na Dolenjskem. Katastrske meritve, zakoličitve, izravnave mej in geodetski načrti.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geodetske-storitve.si">
+    <meta property="og:image" content="https://geodetske-storitve.si/src/site-survey.svg">
+    <meta property="og:locale" content="sl_SI">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Geodetske meritve Miroslav Jurić">
+    <meta name="twitter:description" content="Profesionalne geodetske storitve na Dolenjskem. Katastrske meritve, zakoličitve, izravnave mej in geodetski načrti.">
+    <meta name="twitter:image" content="https://geodetske-storitve.si/src/site-survey.svg">
+    
     <link rel="stylesheet" href="style.css">
-    <title>Geodetske storitve Miroslav Jurić</title>
+    <title>Geodetske meritve Miroslav Jurić</title>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Geodetske meritve Miroslav Jurić",
+      "description": "Profesionalne geodetske storitve na Dolenjskem. Katastrske meritve, zakoličitve, izravnave mej in geodetski načrti.",
+      "url": "https://geodetske-storitve.si",
+      "telephone": "+386 41 710 972",
+      "email": "miroslav.juric7@mail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Dolenjska",
+        "addressCountry": "SI"
+      },
+      "openingHours": "Mo-Fr 08:00-16:00",
+      "priceRange": "$$",
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Dolenjska, Slovenija"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Geodetske storitve",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ureditev meje",
+              "description": "Natančno določitev meje vašega zemljišča z geodetskim postopkom ureditve meje."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Parcelacija zemljišča",
+              "description": "Uradni geodetski postopek razdelitve, združevanja ali preoblikovanja parcel."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Izravnava meje",
+              "description": "Prilagoditev obstoječe meje med parcelami za bolj smiselno in funkcionalnejšo razporeditev."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vpis stavbe v kataster nepremičnin",
+              "description": "Legalizacija stavbe in ureditev podatkov v uradnih evidencah."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Zakoličba objekta",
+              "description": "Obvezen geodetski postopek pred začetkom gradnje za natančno označitev položaja objekta."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Geodetski posnetek",
+              "description": "Natančen prikaz obstoječega stanja zemljišča in objektov za projektno dokumentacijo."
+            }
+          }
+        ]
+      }
+    }
+    </script>
 </head>
 <body>
         <section id="header">
             <div class="container">
                 <div id="main">
-                    <h1>Geodetske Storitve<br> Miroslav Jurić</h1>
-                    <p id="under">Vaš partner za natančne meritve<br> na Dolenjskem</p>
+                    <h1>Geodetske meritve<br> Miroslav Jurić</h1>
+                    <p id="under">Vaš partner za natančne geodetske meritve</p>
                     <button onclick="scrollToContact()">KONTAKT</button>
                 </div>
                 <div id="image">
-                    <img src="src/site-survey.svg" alt="Company Logo" width="400" height="400">
+                    <img src="src/site-survey.svg" alt="Geodetske storitve Miroslav Jurić - meritve in načrti" width="400" height="400">
                 </div>
             </div>
         </section>
@@ -35,23 +132,33 @@
                 <h2>Storitve</h2>
                 <div class="card-container">
             <div class="card"> 
-                <h3>Katastrska meritev</h3>
-                <p>Natančno izmerjamo in označimo meje vaše nepremičnine ter pripravimo potrebno dokumentacijo za kataster.
+                <h3>Ureditev meje</h3>
+                <p>Imate nejasno ali sporno mejo s sosedom? <br><br> Poskrbite za natančno določitev meje vašega zemljišča z geodetskim postopkom ureditve meje. Naše podjetje vam zagotovi celovito strokovno podporo – od prvega ogleda do vpisa v kataster.
                 </p>
             </div>
             <div class="card">
-                 <h3>Zakoličitev objektov</h3>
-                 <p>Strokovno označimo lokacijo novega objekta v skladu z gradbenim dovoljenjem in veljavnimi predpisi.
+                 <h3>Parcelacija zemljišča</h3>
+                 <p>Parcelacija je uradni geodetski postopek, s katerim razdelimo obstoječo parcelo na dve ali več novih, združimo več parcel v eno ali jih preoblikujemo.
                 </p>
             </div>
             <div class="card">
-                 <h3>Izravnava mej</h3>
-                 <p>Pomagamo pri reševanju mejnih sporov in zagotavljamo pravilno določitev mej med sosednjimi parcelami.
+                 <h3>Izravnava meje</h3>
+                 <p>Izravnava meje je geodetski postopek, pri katerem se meja med sosednjima parcelama prilagodi, da postane bolj logična ali uporabna. Gre za premik meje brez večje spremembe površine parcel – le spremeni se njena oblika ali potek. Postopek je smiseln pri nelogičnih mejah (npr. poševno čez dovoz), omejenem dostopu ali ob dogovorjeni menjavi zemljišča s sosedom.
                 </p>
             </div>
             <div class="card">
-                 <h3>Geodetski načrti</h3>
-                 <p>Pripravimo kakovostne geodetske načrte za različne namene - od gradnje do urbanističnega načrtovanja.
+                 <h3>Vpis stavbe v kataster nepremičnin</h3>
+                 <p>Vsaka stavba mora biti po zaključku gradnje vpisana v kataster nepremičnin. Ta vpis je pogoj za pridobitev hišne številke in zakonito uporabo nepremičnine.
+                </p>
+            </div>
+            <div class="card">
+                 <h3>Zakoličba objekta</h3>
+                 <p>Je obvezen geodetski postopek pred začetkom gradnje. Z njo pooblaščeni geodet na terenu natančno označi položaj objekta glede na projektno dokumentacijo in gradbeno dovoljenje.
+                </p>
+            </div>
+            <div class="card">
+                 <h3>Geodetski posnetek</h3>
+                 <p>Temelj vsakega projekta – natančno prikazano dejansko stanje na terenu. Je natančen prikaz obstoječega stanja zemljišča in objektov na njem. Je nepogrešljiv dokument pri pripravi projektne dokumentacije za gradnjo, rekonstrukcijo, legalizacijo objekta ali izdelavo načrtov.
                 </p>
                 </div>
             </div>
@@ -62,21 +169,25 @@
                 <h2>Reference</h2>
                 <div class="logos-container">
                     <div class="logos-scroll">
-                        <div class="logo-item">MERKUR</div>
-                        <div class="logo-item">GRADEX</div>
-                        <div class="logo-item">STAVBENIK</div>
-                        <div class="logo-item">DOLENJSKI GRADBINCI</div>
-                        <div class="logo-item">PROJEKTIVA</div>
-                        <div class="logo-item">GEODET PLUS</div>
-                        <div class="logo-item">CONSTRUVIT</div>
-                        <div class="logo-item">NOVOGRADNJA</div>
-                        <div class="logo-item">ARHITEKTURA PLUS</div>
-                        <div class="logo-item">MERKUR</div>
-                        <div class="logo-item">GRADEX</div>
-                        <div class="logo-item">STAVBENIK</div>
-                        <div class="logo-item">DOLENJSKI GRADBINCI</div>
-                        <div class="logo-item">PROJEKTIVA</div>
-                        <div class="logo-item">GEODET PLUS</div>
+                        <!-- Prvi set -->
+                        <div class="logo-item">Občina Dolenjske Toplice</div>
+                        <div class="logo-item">Mestna občina Novo mesto</div>
+                        <div class="logo-item">Judež transport</div>
+                        <div class="logo-item">Elektro Ljubljana</div>
+                        <div class="logo-item">Občina Žužemberk</div>
+                        <!-- Drugi set -->
+                        <div class="logo-item">Občina Dolenjske Toplice</div>
+                        <div class="logo-item">Mestna občina Novo mesto</div>
+                        <div class="logo-item">Judež transport</div>
+                        <div class="logo-item">Elektro Ljubljana</div>
+                        <div class="logo-item">Občina Žužemberk</div>
+                        <!-- Tretji set -->
+                        <div class="logo-item">Občina Dolenjske Toplice</div>
+                        <div class="logo-item">Mestna občina Novo mesto</div>
+                        <div class="logo-item">Judež transport</div>
+                        <div class="logo-item">Elektro Ljubljana</div>
+                        <div class="logo-item">Občina Žužemberk</div>
+                 
                     </div>
                 </div>
             </div>
@@ -87,10 +198,10 @@
                 <div class="contact-card">
                     <div class="contact-info">
                         <h3>Miroslav Jurić</h3>
-                        <p><strong>Telefon:</strong> +386 XX XXX XXX</p>
-                        <p><strong>Email:</strong> info@geodetske-storitve.si</p>
-                        <p><strong>Naslov:</strong> Dolenjska, Slovenija</p>
-                        <p><strong>Delovni čas:</strong> Pon-Pet 8:00-16:00</p>
+                        <p><strong>Telefon:</strong> +386 41 710 972</p>
+                        <p><strong>Email:</strong> miroslav.juric7@mail.com</p>
+                        <p><strong>Naslov:</strong> Ljubljanska cesta 16, Novo mesto</p>
+                        <p><strong>Delovni čas:</strong> Pon-Pet 8:00-15:00</p>
                     </div>
                 </div>
             </div>
@@ -99,21 +210,21 @@
             <div class="container">
                 <div class="footer-content">
                     <div class="footer-section">
-                        <h4>Geodetske Storitve Miroslav Jurić</h4>
-                        <p>Vaš zanesljiv partner za natančne meritve na Dolenjskem</p>
+                        <h4>Geodetske meritve Miroslav Jurić s.p.</h4>
+                        <p>Vaš zanesljiv partner za natančne geodetske meritve</p>
                     </div>
                     <div class="footer-section">
                         <h4>Kontakt</h4>
-                        <p>Telefon: +386 XX XXX XXX</p>
-                        <p>Email: info@geodetske-storitve.si</p>
+                        <p>Telefon: +386 41 710 972</p>
+                        <p>Email: miroslav.juric7@gmail.com</p>
                     </div>
                     <div class="footer-section">
                         <h4>Lokacija</h4>
-                        <p>Dolenjska, Slovenija</p>
+                        <p>Slovenija</p>
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <p>&copy; 2024 Geodetske Storitve Miroslav Jurić. Vse pravice pridržane.</p>
+                    <p>&copy; 2025 Geodetske meritve Miroslav Jurić s.p. Vse pravice pridržane.</p>
                 </div>
             </div>
         </section>
