@@ -403,6 +403,11 @@ button:hover {
         width: 25px;
         height: 40px;
     }
+    
+    .scroll-icon::before {
+        animation: none;
+        opacity: 0;
+    }
 }
 
 @media (max-width: 480px) {
