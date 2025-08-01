@@ -90,6 +90,8 @@ button:hover {
     padding: 5rem 0;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
+    opacity: 1;
+    transform: none;
 }
 
 #about .container {
@@ -466,7 +468,7 @@ html {
 }
 
 /* Initial state for animated elements */
-section:not(#header):not(#footer) {
+section:not(#header):not(#footer):not(#about) {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.6s ease-out;
@@ -479,7 +481,7 @@ section:not(#header):not(#footer) {
 }
 
 /* Prevent flash of unstyled content */
-body:not(.loaded) section:not(#header):not(#footer) {
+body:not(.loaded) section:not(#header):not(#footer):not(#about) {
     opacity: 0;
     transform: translateY(30px);
 }
